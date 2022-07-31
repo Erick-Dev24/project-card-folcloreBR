@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Folclóre Slider - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/imagens/guarana.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    
+    <link rel="stylesheet" href="src/css/estilos.css">
+    
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/guarana.png" alt="guarana" class="guarana"/>
+        <h1 class="titulo">Projeto Folclore</h1>
+      </header>
+
+      <main class="folclore-slider">
+        <button class="btn-seta btn-voltar"
+        id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-lendas">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Saci Perére</h2>
+                    <p class="vida">HP 550</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/saci-perere.png" alt="saci-perere" class="imagem-folclore">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A lenda do Saci, ele é um ser baixinho, negro e possui apenas uma perna – por isso se locomove pulando rapidamente pela floresta. Outra característica marcante é o seu capuz vermelho. O Saci é muito brincalhão, agitado e travesso. Por isso ele está sempre realizando travessuras por onde passa</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Boto-Cor-de-Rosa</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/boto-cor-de-rosa.png" alt="boto-cor-de-rosa" class="imagem-folclore">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Um boto que se transforma em um homem belo e sedutor. Na forma humana, o boto seduz mulheres para engravidá-las. Essas mulheres são abandonadas pelo ser, que retorna para o rio em sua forma animal.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Cuca</h2>
+                    <p class="vida">HP 1270</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/cuca.png" alt="cuca" class="imagem-folclore">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">uma bruxa velha com aparência assustadora que possui cabeça de jacaré e unhas imensas. Dona de uma voz assustadora, a Cuca rapta as crianças desobedientes. Reza a lenda que a bruxa Cuca dorme uma vez a cada sete anos.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Mula Sem-Cabeça</h2>
+                    <p class="vida">HP 440</p>
+                </div>
+
+                <div class="container-image,">
+                    <img src="src/imagens/mula-sem-cabeça.png" alt="mula-sem-cabeça" class="imagem-folclore">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titutlo">Descrição</h3>
+                    <p class="texto">É um fantasma de uma mulher que foi amaldiçoada por ter se entregado com um padre e foi condenada a se transformar em uma mula sem cabeça que tem fogo ao invés de uma cabeça, galopando através dos campos desde o por do sol de quinta-feira até o nascer do sol de sexta-feira.</p>
+                </div>
+            </li>
+        </ul>
+
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar">
+    </button>
+ </main>
+
+ <script src="src/js/index.js"></script>
+</body>
+</html>
